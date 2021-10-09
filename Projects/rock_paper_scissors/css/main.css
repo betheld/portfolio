@@ -1,0 +1,56 @@
+body {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 25px;
+  text-align: center;
+  background-image: url(https://external-preview.redd.it/oY1ZRQZtNGCdFVF1xcuTh-sxNdgk0Ui3TU2ARB287dQ.png?auto=webp&s=fc2bd687bc3a61426e2f888eed3b1e8438e5fcdc);
+  color:#fde7ff;
+  margin: 10px;
+  padding-right: 100px;
+
+}
+h1{
+  font-size: 90px;
+}
+strong {
+  border: 2px dotted #2eebb27a;
+  color: #fde7ff;
+}
+
+button {
+  font-family: 'Londrina Solid', cursive;
+  background: #2eebb2cb;
+  color: #fde7ff;
+  border: none;
+  padding: 5px 8px;
+  font-size: 30px;
+}
+button:active {
+  background: #2eebb27a;
+}
+
+.scoreboard {
+  width: 250px;
+  margin: auto;
+  border: 5px solid #2eebb2cb;
+  border-radius: 25px;
+}
+.scoreboard h2 {
+  border-bottom: 3px solid #2eebb2cb;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 30px;
+}
+
+#status {
+  margin-top: 20px;
+}
